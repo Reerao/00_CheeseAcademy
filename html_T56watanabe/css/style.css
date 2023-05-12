@@ -1,0 +1,399 @@
+body {
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    color: #222222;
+}
+
+.wrap{
+   width: 1200px; 
+   margin: 0 auto;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.jtitle{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.item2{
+    margin: 50px 50px 50px 0px;
+    font-size: 21px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mainvisual{
+    position: relative;
+}
+
+.main{
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は白に*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main1{
+    
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.main2{
+    
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    white-space:nowrap;
+    margin-top: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.yellow{
+    color: #ffd61a;
+}
+
+.about_img{
+    display: flex;
+}
+
+.course{
+    background: #fafafa;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 403px 400px 400px;
+}
+
+.courseitem1{
+    align-self: center;
+    margin-left: 50px;
+}
+
+.coursetext{
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.courseitem2{
+    align-self: center;
+    width: 480px;
+    margin-left: 120px;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.news-contents{
+    width: 300px;
+    font-size: 14px;
+    margin: 0px 15px 0px;
+}
+
+.news-contents:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);
+}
+
+.more{
+    width: 300px;
+    height: 60px;
+    background: #ffd61a;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height:60px;
+    line-height:60px;
+    /* margin-bottom: 60px; */
+}
+
+.access{
+    background: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+
+.access-table{
+    text-align: left;
+    width: 600px;
+    margin-left: auto;
+    margin-right: 15%;
+    margin-top: 60px;
+    white-space:nowrap;
+    border-collapse: separate;
+    border-spacing: 0px 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  /* p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto 40px;
+  } */
+   
+  input[type="submit"],
+  input[type="text"],
+  select,
+  textarea,
+  button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #cacaca;
+    vertical-align: top;
+  }
+   
+   
+  input[type="text"],
+  textarea {
+    /* background: #f8f8f8; */
+    display: block;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 400px;
+    transition: 0.8s;
+    border-radius: 0;
+  }
+   
+  input[type="text"]:focus,
+  textarea:focus {
+    background: #e9f5fb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+   
+  textarea[name="content"] {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+  }
+   
+  input::placeholder,
+  textarea::placeholder {
+    color: #ccc;
+  }
+   
+  ::-webkit-input-placeholder {
+    color: #ccc;
+    opacity: 1;
+  }
+   
+  ::-moz-placeholder {
+    color: #ccc;
+    opacity: 1;
+  }
+   
+  :-ms-input-placeholder {
+    color: #ccc;
+    opacity: 1;
+  }
+   
+  .form-table {
+    width: 800px;
+    margin-bottom: 30px;
+  }
+   
+  .form-table th,
+  .form-table td {
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    
+    padding: 20px;
+  }
+   
+  .form-table th {
+    /* background: #ffecea; */
+    border-right: 1px solid #cacaca;
+    padding-left: 16px;
+    position: relative;
+    text-align: left;
+    width: 240px;
+  }
+
+  .c-form-select {
+    position: relative;
+    width: 430px;
+}
+
+.c-form-select:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 12px;
+    width: 8px;
+    height: 12px;
+    /* border-top: 2px solid #333;
+    border-right: 2px solid #333; */
+    transform: rotate(135deg);
+    pointer-events: none;
+}
+
+.c-form-select select {
+    height: 3.1em;
+    width: 100%;
+    padding: 0 8px;
+    /* border-radius: 4px; */
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.c-form-select select::-ms-expand {
+    display: none;
+}
+
+.c-form-select select:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+  .c-form-checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c-form-checkbox input {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.c-form-checkbox-name {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    /* color: #666; */
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.c-form-checkbox-name:before {
+    content: "";
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 6px;
+    flex-shrink: 0;
+}
+
+.c-form-checkbox input:checked + .c-form-checkbox-name {
+    color: rgb(33, 150, 243);
+}
+
+.c-form-checkbox input:checked + .c-form-checkbox-name:before {
+    border: 1px solid rgb(33, 150, 243);
+    background-color: rgb(33, 150, 243);
+}
+
+.c-form-checkbox input:checked + .c-form-checkbox-name:after {
+    content: "";
+    position: absolute;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    left: 0.4em;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.4em;
+    height: 0.65em;
+    transform: translateY(-1px) rotate(45deg);
+}
+
+.c-form-checkbox input:focus-visible + .c-form-checkbox-name .c-form-checkbox-text {
+    background: linear-gradient(transparent 90%, rgba(33, 150, 243, 0.3) 90%);
+}
+   
+#footer{
+    width: auto;
+    height: auto;
+    background: #707070;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    height:60px;
+    line-height:60px;
+    margin-top: 140px;
+    padding: 15px;
+}
+
+.margin-b40{
+    margin-bottom: 40px;
+}
+
+.margin-b80{
+    margin-bottom: 80px;
+}
+
+.margin-b60{
+    margin-bottom: 60px;
+}
+
+.margin-b24{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.margin-b30{
+    margin-bottom: 30px;
+}
+
+.margin-b70{
+    margin-bottom: 70px;
+}
